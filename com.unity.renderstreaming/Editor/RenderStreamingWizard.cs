@@ -22,7 +22,7 @@ namespace Unity.RenderStreaming.Editor
         };
 
 #if UNITY_2021_1_OR_NEWER
-        const AndroidSdkVersions RequiredAndroidSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
+        const AndroidSdkVersions RequiredAndroidSdkVersion = AndroidSdkVersions.AndroidApiLevel25;
 #else
         const AndroidSdkVersions RequiredAndroidSdkVersion = AndroidSdkVersions.AndroidApiLevel21;
 #endif
